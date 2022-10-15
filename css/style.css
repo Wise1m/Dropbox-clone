@@ -1,0 +1,52 @@
+:root{
+    --color__core__primary: #1e1919;
+    --color__core__secondary: #f7f5f2;
+    --color__core__accent: #0061fe;
+    --color__button__primary__hover: #0057e5;
+    --color__button__primary__active: #0050d0;
+    --color__standard__text: #1e1919;
+    --color__background: #fbfaf9;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: var(--color__background);
+}
+
+.button{
+    background-color: var(--color__core__accent);
+    border: none;
+    user-select: none;
+    color: var(--color__core__secondary);
+    font-weight: 700;
+    width: 105px;
+}
+
+.button:hover{
+    background-color: var(--color__button__primary__hover);
+}
+
+.sect-1{
+    padding: 50px;
+    display: inline-block;
+    background-color: var(--color__core__primary);
+    justify-content: center;
+    align-content: center;
+}
+
+.t-1{
+    
+}
+
+.down-content{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
