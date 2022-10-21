@@ -11,35 +11,39 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https//cdn.jsdeliver.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <section class="head">
         <nav class=" navbar navbar-expand-md bg-light navbar-light fixed-top">
+            <img src="images/dropbox-logo.png" alt="logo" class="logo">
             <div class="container-fluid">
-                <img src="#" alt="logo" class="logo">
-                <a class="navbar-brand" href="#">Dropbox</a>
+                <a class="navbar-brand logo-brand" href="#">Dropbox</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse clearfix" id="navbarCollapse">
-                    <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item"><a href="#" class="nav-link">Why Dropbox?</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Solution</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                    <ul class="nav navbar-nav mr-auto top-nav">
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Why Dropbox?</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Products</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Solution</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Pricing</a></li>
                     </ul>
 
-                    <ul class="nav navbar-nav ml-auto float-right" >
-                        <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Get apps</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Sign up</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Sign in</a></li>
-                        <input class="button" type="button" value="Get started"><i class="bi bi-arrow-right-short"></i> </input>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Contacts</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Get apps</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Sign up</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Sign in</a></li>
+                        <button class="button" type="button"> 
+                            <span>Get started</span>
+                            <span><i class="bi bi-arrow-right"></i></span>
+                        </button>
                     </ul>
                 </div>
             </div>
@@ -50,50 +54,116 @@
         <div class="container" style="display: flex; justify-content: center; align-content: center;" >
             <h2 class="t-1 display-5"><span class="display-4"> Join over 700 million registered </span><br> users who trust Dropbox</h2>
         </div>
-        <div class="container" style="display: flex; justify-content: center; align-content: center;">
-            <p>Easy to use, reliable, private, and secure. It's no wonder Dropbox is the choice for storing and sharing your <br> most important files.</p>
+        <div class="container mt-3" style="display: flex; justify-content: center; align-content: center;">
+            <p class="t-1">Easy to use, reliable, private, and secure. It's no wonder Dropbox is the choice for storing and sharing your <br> most important files.</p>
         </div>     
-        <div class="container" style="display: flex; justify-content: center; align-content: center;">
-            <input class="button" type="button" value="Find your plan" ></input>
+        <div class="container mt-4 " style="display: flex; justify-content: center; align-content: center;">
+            <button class="button-find" type="button">
+                <span>Find your plan</span>
+                <span><i class="bi bi-arrow-right"></i></span>
+            </button>
         </div>
-        <div class="container" style="display: flex; justify-content: center; align-content: center;">
+        <div class="container mt-5" style="display: flex; justify-content: center; align-content: center;">
             <img src="images/img.PNG" alt="img1">
         </div>
         <div class="container mt-5">
-            <h3  style="display: flex; justify-content: center; align-content: center;">See what sets Dropbox apart</h3>
+            <h3  class="down-content-title">See what sets Dropbox apart</h3>
             <div class="container mt-5 down-content">
-                <div>
-                    <div><i class=""></i></div>
+                <div style="margin: 15px;">
+                    <img></img>
                     <p><strong>Your files, not ours</strong></p>
                     <p>
                         With Dropbox, your files belong to you, not us, 
                         so you can be sure we're not reselling your data.
                     </p>
                 </div>
-                <div>
-                    <div></div>
+                <div style="margin: 15px;">
+                    <img></img>
                     <p><strong>All your files in one place</strong></p>
                     <p>
                         Store computer backups, photo libraries, 
                         thousands of documents, all your files, in the same place.
                     </p>
                 </div>
-                <div>
-                    <div></div>
+                <div style="margin: 15px;">
+                    <img></img>
                     <p><strong>One-of-a-kind functionality</strong></p>
                     <p>
                         Store files as large as 2 TB each, sync at light speed, 
                         and allow anyone to preview nearly 200 file types.
                     </p>
                 </div>
-                <div>
-                    <div></div>
+                <div style="margin: 15px;">
+                    <img></img>
                     <p><strong>Ease of use and security</strong></p>
                     <p>
                         2/3 of surveyed users say Dropbox keeps their files 
                         more secure and we're a leader in ease of use.
                     </p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="sect-2">
+        <div class="container-fluid sect-2-left" href="#">
+            <div class="container-fluid top-left t-1">
+                <span><i class=""></i></span>
+                <p>HelloSign, a Dropbox company</p>
+            </div>
+            <div class="container">
+                <h3 class="t-1">Add eSignature to your <br> workflows</h3>
+                <p class="t-1" style="padding-top: 10px;">HelloSign is the simple and secure way to send and request legally <br> binding signatures online.</p>
+            </div>
+            <div class="container t-1" style="padding-top: 10px;">
+                <span type="button" class="down-button"><a href="#" class="down-button-link"> Learn more</a></span>
+                <span type="button" class="down-button"><a href="#" class="down-button-link"> Try for free </a></span>
+            </div>
+            <div class="container t-1" style="padding-top: 10px;">
+                <img src="images/section-2-left.PNG" alt="left-pic">
+            </div>
+        </div>
+        <div class="container-fluid sect-2-right" href="#" style="margin-left: 8px;">
+            <div class="container top-right t-1">
+                <span><i class=""></i></span>
+                <p>DocSend, a Dropbox company</p>
+            </div>
+            <div class="container">
+                <h3 class="t-1">Send a link and open <br> doors</h3>
+                <p class="t-1" style="padding-top: 10px;">Use DocSend to share, manage and optimize business-critical <br> documents by simply sending a link</p>
+            </div>
+            <div class="container t-1" style="padding-top: 10px;">
+                <span type="button" class="right-down-button"><a href="#" class="right-down-button-link"> Learn more</a></span>
+                <span type="button" class="right-down-button"><a href="#" class="right-down-button-link"> Try for free</a></span>
+            </div>
+            <div class="container t-1" style="padding-top: 10px;">
+                <img src="images/section-2-right.PNG" alt="right-pic">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <h4>What can Dropbox help you do?</h4>
+        <p>Dropbox brings everything-traditional files, cloud content, and web shortcuts-together in one place.</p>
+        <div class="container-fluid">
+            <div class="container dropdowns">
+                <div class="dropdown">
+                    <input type="checkbox" id="dropdown">
+
+                    <label for="dropdown" class="dropdown-face">
+                        <div class="dropdown-text">Get 2GB of cloud storage for free with Dropbox Basic</div>
+
+                        <div class="dropdown-arrow"></div>
+                    </label>
+
+                    <div class="dropdown-items">
+                        <p>Save and access your files from any device, and share them with anyone. 
+                            Discover what Dropbox can do for you—get a free account, no strings attached!</p>
+                        <div><a href="#">Learn more</a></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="#" alt="#">
             </div>
         </div>
     </section>
