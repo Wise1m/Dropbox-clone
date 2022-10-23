@@ -160,6 +160,8 @@ input:checked ~ .dropdown-items{
     background-color: var(--color__background);
     padding-top: 10px;
     justify-content: space-between;
+
+    user-select: none;
 }
 
 .top-left .top-right{
