@@ -8,6 +8,7 @@
     --color__background: #fbfaf9;
     --primary_font_family: 'Dela Gothic One' , cursive;
     --secondary_font_family: 'Montserrat', sans-serif;
+    --disabled-background: #e6e2df;
 }
 
 
@@ -94,7 +95,78 @@ body{
 }
 
 
-.dropdown{
+
+.sect-2{
+    display: flex;
+    background-color: var(--color__background);
+    padding-top: 10px;
+    justify-content: space-between;
+
+    user-select: none;
+}
+
+.top-left .top-right{
+    display: flex;
+}
+
+.down-button{
+    margin: 20px;
+}
+
+.down-button-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.right-down-button{
+    margin: 20px;
+}
+
+.right-down-button-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sect-2-left{
+    background-color: #428affa1;
+    padding: 50px;
+    height: 650px;
+    margin-left: 0;
+}
+
+.sect-2-right{
+    background-color: #428bff;
+    padding: 50px;
+    color: antiquewhite;
+    height: 650px;
+    margin-right: 0;
+}
+
+.sect-3-head{
+    background-color: var(--disabled-background);
+    text-align: center;
+    margin-top: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sect-3::before, .sect-3::after{
+    background-color: var(--disabled-background);
+}
+
+.dropdown-head{
+    font-size: 30px;
+}
+
+.dropdown-sub{
+    font-size: 14px;
+}
+
+.dropdown-1-container{
+    display: flex;
+}
+
+.dropdown-1{
     position: relative;
     width: 230px;
 }
@@ -155,48 +227,8 @@ input:checked ~ .dropdown-items{
     opacity: 1;
 }
 
-.sect-2{
-    display: flex;
-    background-color: var(--color__background);
-    padding-top: 10px;
-    justify-content: space-between;
-
-    user-select: none;
-}
-
-.top-left .top-right{
-    display: flex;
-}
-
-.down-button{
-    margin: 20px;
-}
-
-.down-button-link{
-    color: #000;
-    text-decoration: none;
-}
-
-.right-down-button{
-    margin: 20px;
-}
-
-.right-down-button-link{
-    color: #fff;
-    text-decoration: none;
-}
-
-.sect-2-left{
+.dropdown-1-display{
     background-color: #428affa1;
-    padding: 50px;
-    height: 650px;
-    margin-left: 0;
-}
-
-.sect-2-right{
-    background-color: #428bff;
-    padding: 50px;
-    color: antiquewhite;
-    height: 650px;
-    margin-right: 0;
+    width: 1500px;
+    height: 700px;
 }
