@@ -28,18 +28,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse clearfix" id="navbarCollapse">
-                    <ul class="nav navbar-nav mr-auto top-nav">
-                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Why Dropbox?</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Products</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Solution</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Pricing</a></li>
+                    <ul class="nav navbar-nav ml-sm top-nav">
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Why Dropbox?</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Products</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Solution</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Pricing</a></li>
                     </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Contacts</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Get apps</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Sign up</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000;">Sign in</a></li>
+                    <ul class="nav navbar-nav mr-sm">
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Contacts</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Get apps</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Sign up</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Sign in</a></li>
                         <button class="button" type="button"> 
                             <span>Get started</span>
                             <span><i class="bi bi-arrow-right"></i></span>
@@ -150,7 +150,7 @@
         <div class="sect-3-content">
             <div class="tabs">
                 <hr>
-                <div class="tab">
+                <div class="tab" onclick="document.getElementById('display').src='images/display3' ">
                     <input type="radio" id="rad1" name="rad">
                     <label for="rad1" class="tab-label"><strong> Get 2GB of cloud storage for free with Dropbox Basic</strong></label>
                     <div class="tab-content">
@@ -160,7 +160,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="tab">
+                <div class="tab" onclick="document.getElementById('display').src='images/display2'">
                     <input type="radio" id="rad2" name="rad">
                     <label for="rad2" class="tab-label"><strong> DropBox Plus has room for all your content with space to spare</strong></label>
                     <div class="tab-content">
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="tab">
+                <div class="tab" onclick="display_3()">
                     <input type="radio" id="rad3" name="rad">
                     <label for="rad3" class="tab-label"><strong> DropBox Family is a place for everyone and space for everything</strong></label>
                     <div class="tab-content">
@@ -180,7 +180,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="tab">
+                <div class="tab" onclick="display_4()">
                     <input type="radio" id="rad4" name="rad">
                     <label for="rad4" class="tab-label"><strong> Make life easier for you and your clients with Dropbox Professional</strong></label>
                     <div class="tab-content">
@@ -190,7 +190,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="tab">
+                <div class="tab" onclick="display_5()">
                     <input type="radio" id="rad5" name="rad">
                     <label for="rad5" class="tab-label"><strong>Streamline your document workflow with Dropbox Sign</strong></label>
                     <div class="tab-content">
@@ -199,7 +199,7 @@
                         <div class="accordion-link-cont"><a href="#" class="accordion-link">Learn more</a></div>
                     </div>
                 </div>
-                <hr> <div class="tab">
+                <hr> <div class="tab" onclick="display_6()">
                     <input type="radio" id="rad6" name="rad">
                     <label for="rad6" class="tab-label"><strong> Centralize, secure, and easily access your work with Dropbox Standard</strong></label>
                     <div class="tab-content">
@@ -210,7 +210,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="tab">
+                <div class="tab" onclick="display_7()">
                     <input type="radio" id="rad7" name="rad">
                     <label for="rad7" class="tab-label"><strong> DocSend lets you track, analyze, and optimize your content</strong></label>
                     <div class="tab-content">
@@ -220,7 +220,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="tab">
+                <div class="tab" onclick="display_8()">
                     <input type="radio" id="rad8" name="rad">
                     <label for="rad8" class="tab-label"><strong> Proactively detect threats to your team’s content with Dropbox Advanced</strong></label>
                     <div class="tab-content">
@@ -234,7 +234,7 @@
             </div>
 
             <div class="Display" id="display">
-                <img src="#" alt="#">
+                <img class="image" src="images/display1.png" alt="#">
             </div>
         </div>
 
