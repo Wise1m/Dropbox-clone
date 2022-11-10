@@ -262,3 +262,61 @@ input:checked ~ .tab-content{
     font-size: 30px;
     text-align: center;
 }
+
+/*section 4*/
+.sect-4-content-1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sect-4-subcontent-1{
+    background-color: var(--color__background);
+}
+
+.sect-4-sub-subcontent-1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-4-img{
+    width: 450px;
+    height: 200px;
+}
+
+.sect-4-sub-1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sect-4-sub-2{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.sect-4-parag-1{
+    font-size: 12px;
+}
+
+.sect-4-parag-2{
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.sect-4-btn-1{
+    margin-top: 33px;
+    background-color: #0050d0;
+    margin-right: 15px;
+    color: var(--color__background);
+    padding: 20px;
+}
+
+.sect-4-btn-2{
+    margin-top: 15px;
+    background-color: #0050d0;
+    margin-left: 15px;
+    color: var(--color__background);
+    padding: 20px;
+}
