@@ -246,3 +246,9 @@ input:checked ~ .tab-content{
     width: 700px;
     background-color: #7daefd;
 }
+
+.image{
+    width: 600px;
+    height: 500px;
+    transform: translate(60px, 100px);
+}
