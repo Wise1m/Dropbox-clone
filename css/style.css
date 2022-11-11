@@ -320,3 +320,18 @@ input:checked ~ .tab-content{
     color: var(--color__background);
     padding: 20px;
 }
+
+.sect-4-subhead{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.sect-4-subhead-link{
+    font-size: 12px;
+    color: black;
+}
+
+.sect-4-subhead-link-cont{
+    text-align: center;
+    padding-top: 10px;
+}
