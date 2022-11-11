@@ -311,6 +311,8 @@ input:checked ~ .tab-content{
     margin-right: 15px;
     color: var(--color__background);
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sect-4-btn-2{
@@ -319,6 +321,8 @@ input:checked ~ .tab-content{
     margin-left: 15px;
     color: var(--color__background);
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sect-4-subhead{
@@ -336,15 +340,47 @@ input:checked ~ .tab-content{
     padding-top: 10px;
 }
 
+.sect-4-content-2-cont{
+    display: flex;
+    margin-left: 150px;
+    /* margin-right: 30px; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .sect-4-content-2{
     display: flex;
     font-size: 14px;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
+    /* padding-top: 30px;
+    padding-left: 60px; */
 }
 
-/*.sect-4-content-3{
-    display: flex;
-    margin-top: 30px;
+.sub-4-content-2-img{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.sect-4-content-2-title{
+    margin-top: 20px;
+}
+
+.sect-4-content-2-body{
+    margin-top: 15px;
+}
+
+.sect-4-content-2-minicont-1{
+    margin-left: 50px;
+}
+
+.sect-4-content-2-minicont-2{
+    margin-left: 60px;
+}
+
+.sect-4-content-2-minicont-as{
+    margin-left: 80px;
 }
