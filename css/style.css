@@ -347,6 +347,7 @@ input:checked ~ .tab-content{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .sect-4-content-2{
@@ -383,4 +384,27 @@ input:checked ~ .tab-content{
 
 .sect-4-content-2-minicont-as{
     margin-left: 80px;
+}
+
+/* section-5 */
+.sect-5{
+    background-color: var(--color__core__primary);
+}
+
+.sect-5-head{
+    color: var(--color__background);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.sect-5-head-link{
+    text-align: center;
+    font-size: 12px;
+    color: #f7f5f2;
+    padding-top: 20px;
+}
+
+.sect-5-sub-link{
+    color: #f7f5f2;
 }
