@@ -30,6 +30,14 @@ body{
     background: var(--color__background);
 }
 
+head{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+}
+
 .logo{
     width: 50px;
     height: 50px;
@@ -41,8 +49,31 @@ body{
     font-size: large;
 }
 
+.collapse{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .top-nav{
     color: var(--color__core__primary);
+}
+
+#nav-left,
+#nav-right{
+    width: 40%;
+}
+#nav-left-mid,
+#nav-right-mid{
+    width: 10%;
+}
+
+.nav-right li{
+    margin-left: 10px;
+}
+
+.nav-right button{
+    margin-left: 15px;
 }
 
 .button{
