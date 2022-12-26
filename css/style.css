@@ -441,7 +441,7 @@ ul{
    display: flex;
    /* width: 80%px; */
    height: 400px;
-   margin-top: 20px;
+   margin-top: -60px;
 }
 
 .slide1-img, 
@@ -579,11 +579,13 @@ ul{
 }
 
 .slide-button.prev{
-    
+    top: 200px;
+    left: 32px;
 }
 
 .slide-button.next{
-    
+    top: 200px;
+    left: 863px;
 }
 
 #slide-number-cont{
