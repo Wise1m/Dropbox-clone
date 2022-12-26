@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+
 </head>
 <body>
     <section class="head">
@@ -41,8 +45,8 @@
                         <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Sign up</a></li>
                         <li class="nav-item"><a href="#" class="nav-link" style="color: #000; font-size: 14px;">Sign in</a></li>
                         <button class="button" type="button"> 
-                            <span>Get started</span>
-                            <span><i class="bi bi-arrow-right"></i></span>
+                            <span id="btn-left" >Get started</span>
+                            <span id="btn-right"><i class="bi bi-arrow-right"></i></span>
                         </button>
                     </ul>
                 </div>
@@ -352,7 +356,9 @@
             <ul data-slides>
                 <li class="slides" data-active>
                     <div class="slide1 slide">
-                        <img src="images/slide1.jpg" alt="#" class="slide1-img">
+                        <div id="img-div">
+                            <img src="images/slide1.jpg" alt="#" class="slide1-img">
+                        </div>
                         <div class="slide1-content">
                             <div>
                                 “Dropbox has been tremendously helpful for social media. I can hop on anytime and pull whatever photo is inspiring me to post.”
@@ -365,9 +371,11 @@
                     </div>
                 </li>
 
-                <li class="slides">
+                <!-- <li class="slides">
                     <div class="slide2 slide">
-                        <img src="images/slide2.jpg" alt="#" class="slide2-img">
+                        <div id="img-div">
+                            <img src="images/slide2.jpg" alt="#" class="slide2-img">
+                        </div>
                         <div class="slide2-content">
                             <div>
                                 “Dropbox increased our team's collaboration while working from home, which has increased our flexibility and could revolutionize our office culture.”
@@ -382,7 +390,9 @@
 
                 <li class="slides">
                     <div class="slide3 slide">
-                        <img src="images/slide3.jpg" alt="#" class="slide3-img">
+                        <div id="img-div">
+                            <img src="images/slide3.jpg" alt="#" class="slide3-img">
+                        </div>
                         <div class="slide3-content">
                             <div>
                                 “We're a grass-roots nonprofit. When we use a tool that the rest of the design world uses, it helps professionalize our organization.”
@@ -397,7 +407,9 @@
 
                 <li class="slides">
                     <div class="slide4 slide">
-                        <img src="images/slide4.jpg" alt="#" class="slide4-img">
+                        <div id="img-div">
+                            <img src="images/slide4.jpg" alt="#" class="slide4-img">
+                        </div>
                         <div class="slide4-content">
                             <div>
                                 “Dropbox easily allows me to transfer what's in my mind to another person.”
@@ -412,7 +424,9 @@
 
                 <li class="slides">
                     <div class="slide5 slide">
-                        <img src="images/slide5.jpg" alt="#" class="slide5-img">
+                        <div id="img-div">
+                            <img src="images/slide5.jpg" alt="#" class="slide5-img">
+                        </div>
                         <div class="slide5-content">
                             <div>
                             “Our team is working remotely—everyone's in a different time zone. Dropbox is a great hub for us to all work at once and seamlessly share files.”
@@ -427,7 +441,9 @@
 
                 <li class="slides">
                     <div class="slide6 slide">
-                        <img src="images/slide6.jpg" alt="#" class="slide6-img">
+                        <div id="img-div">
+                            <img src="images/slide6.jpg" alt="#" class="slide6-img">
+                        </div>
                         <div class="slide6-content">
                             <div>
                                 “Dropbox version control is very important. You may want to go back to an earlier version because there's an idea in there that you really like.”
@@ -442,7 +458,9 @@
 
                 <li class="slides">
                     <div class="slide7 slide">
-                        <img src="images/slide7.jpg" alt="#" class="slide7-img">
+                        <div id="img-div">
+                            <img src="images/slide7.jpg" alt="#" class="slide7-img">
+                        </div>
                         <div class="slide7-content">
                             <div>
                                 “Creative growth happens when you don't have to worry about managing storage.”
@@ -453,61 +471,86 @@
                             <div>Andi Scull, Founder and Creative Director, HOPE Organization</div>
                         </div>
                     </div>
-                </li>
+                </li> -->
             </ul>
+        </div>
+
+        <div id="slide-number-cont">
+            <div></div>
+            <div id="slide-number">
+                <span id="slide-number-left">01/07</span>
+                <span id="slide-number-right">&#62;</span>
+            </div>
+            <div></div>
+        </div>
+
+        <div id="sect-5-base">
+            <div id="sect-5-base-text-cont">
+                <p id="sect-5-base-text">For all things worth sharing.</p>
+            </div>
+            <div id="sect-5-button-cont">
+                <button id="button" type="button"> 
+                    <span id="btn-left">Explore Plans</span>
+                    <span id="btn-right"><i class="bi bi-arrow-right"></i></span>
+                </button>
+            </div>
         </div>
     </section>
     
     <footer>
         <div id="footer-elements">
             <div class="foot-elements-1">
-                <p class="foot-nav-head"></p>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
+                <p class="foot-nav-head">DropBox</p>
+                <a href="#" class="foot-nav-link">Desktop app</a>
+                <a href="#" class="foot-nav-link">Mobile app</a>
+                <a href="#" class="foot-nav-link">Integrations</a>
+                <a href="#" class="foot-nav-link">Features</a>
+                <a href="#" class="foot-nav-link">Solutions</a>
+                <a href="#" class="foot-nav-link">Do more than store</a>
+                <a href="#" class="foot-nav-link">Security</a>
+                <a href="#" class="foot-nav-link">Advance Access</a>
             </div>
             <div class="foot-elements-1">
-                <p class="foot-nav-head"></p>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
+                <p class="foot-nav-head">Products</p>
+                <a href="#" class="foot-nav-link">Plus</a>
+                <a href="#" class="foot-nav-link">Professional</a>
+                <a href="#" class="foot-nav-link">Business</a>
+                <a href="#" class="foot-nav-link">Enterprise</a>
+                <a href="#" class="foot-nav-link">Dropbox Sign</a>
+                <a href="#" class="foot-nav-link">DocSend</a>
+                <a href="#" class="foot-nav-link">Plans</a>
+                <a href="#" class="foot-nav-link">Product updates</a>
             </div>
             <div class="foot-elements-1">
-                <p class="foot-nav-head"></p>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
+                <p class="foot-nav-head">Support</p>
+                <a href="#" class="foot-nav-link">Help center</a>
+                <a href="#" class="foot-nav-link">Contact us</a>
+                <a href="#" class="foot-nav-link">Privacy & terms</a>
+                <a href="#" class="foot-nav-link">Cookie Policy</a>
+                <a href="#" class="foot-nav-link">Cookies & CCPA preferences</a>
+                <a href="#" class="foot-nav-link">Sitemap</a>
+                <a href="#" class="foot-nav-link">Learning resources</a>
             </div>
             <div class="foot-elements-1">
-                <p class="foot-nav-head"></p>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
+                <p class="foot-nav-head">Community</p>
+                <a href="#" class="foot-nav-link">Blog</a>
+                <a href="#" class="foot-nav-link">Developers</a>
+                <a href="#" class="foot-nav-link">Community forums</a>
+                <a href="#" class="foot-nav-link">Referrals</a>
             </div>
             <div class="foot-elements-1">
-                <p class="foot-nav-head"></p>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
-                <a href="" class="foot-nav-link"></a>
+                <p class="foot-nav-head">Company</p>
+                <a href="#" class="foot-nav-link">About</a>
+                <a href="#" class="foot-nav-link">Jobs</a>
+                <a href="#" class="foot-nav-link">Investor relations</a>
+                <a href="#" class="foot-nav-link">ESG</a>
+                <a href="#" class="foot-nav-link">Partners</a>
             </div>
         </div>
+
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-youtube"></i>
     </footer>
 
     <script src="js/script.js"></script>
